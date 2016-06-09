@@ -8,7 +8,7 @@
   <?php
 	//Connect to database
 	try {	
-$db = new PDO("mysql:host=jakemaguire.co.uk;dbname=walking_tour_database", "jake", "990cxi21");
+$db = new PDO("mysql:host=jakemaguire.co.uk;dbname=walking_tour_database", "", "");
 	} catch (PDOException $e) {
 		print "ERROR: " . $e->getMessage() . "<br/>";
 		die();
