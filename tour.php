@@ -9,7 +9,7 @@
 $walk_id = $_GET['id'];
 
 //---------- Connect to Database ----------//			
-$db = new PDO("mysql:host=jakemaguire.co.uk;dbname=walking_tour_database", "jake", "990cxi21");
+$db = new PDO("mysql:host=jakemaguire.co.uk;dbname=walking_tour_database", "", "");
 
 //---------- Select Walk Information Based on Walk ID ----------//
 $walk = $db->prepare("SELECT * FROM listOfWalks WHERE id = :walkid");
