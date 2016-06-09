@@ -43,7 +43,7 @@ $time 		= $walk_data["data"]['time'];
  *
  *@author group 14
  */
-$db = new PDO("mysql:host=jakemaguire.co.uk;dbname=walking_tour_database", "webWalk", "123");
+$db = new PDO("mysql:host=jakemaguire.co.uk;dbname=walking_tour_database", "", "");
 $db->beginTransaction();
 
 /**
